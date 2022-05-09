@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+button{
+  margin:5px;
+}
+.todo {
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.strike {
+  text-decoration: line-through;
+  margin-bottom: 5px;
+  text-decoration-color: red;
+}
