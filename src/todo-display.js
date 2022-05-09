@@ -9,7 +9,7 @@ function TodoDisplay({toDoList,removeFromList,removeElementCompleted}){
         <div>
             {toDoList.map(todo => {
                 return (
-                   <div className={todo.complete ? "todo strike" : "todo"} id={todo.id} onClick={removeFromLists}>{todo.task}</div>
+                   <div className={todo.complete ? "todo strike" : "todo"} id={todo.id} onClick={removeFromLists} title={todo.complete ?"Completed": "Pending"}>{todo.task}</div>
             )
         }
             )}
